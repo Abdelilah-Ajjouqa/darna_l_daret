@@ -1,11 +1,15 @@
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import HomePage from './pages/HomePage'
+
 const App = () => {
     return (
-        <>
-        <div className="bg-amber-500">
-            <h1>App</h1>
-        </div>
-        </>
+        <Layout>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+            </Routes>
+        </Layout>
     )
 }
 
-export default App;
+export default App

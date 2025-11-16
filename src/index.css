@@ -1,1 +1,65 @@
 @import "tailwindcss";
+
+@theme {
+    /* Blue shades */
+    --color-ink-50: #e5f0ff;
+    --color-ink-100: #cce0ff;
+    --color-ink-200: #99c2ff;
+    --color-ink-300: #66a3ff;
+    --color-ink-400: #3385ff;
+    --color-ink-500: #0066ff;
+    --color-ink-600: #0052cc;
+    --color-ink-700: #003d99;
+    --color-ink-800: #002966;
+    --color-ink-900: #001433;
+    --color-ink-950: #000e24;
+
+    --color-prussian-50: #e5f2ff;
+    --color-prussian-100: #cce5ff;
+    --color-prussian-200: #99caff;
+    --color-prussian-300: #66b0ff;
+    --color-prussian-400: #3396ff;
+    --color-prussian-500: #007bff;
+    --color-prussian-600: #0063cc;
+    --color-prussian-700: #004a99;
+    --color-prussian-800: #003166;
+    --color-prussian-900: #001933;
+    --color-prussian-950: #001124;
+
+    --color-regal-50: #e5f3ff;
+    --color-regal-100: #cce6ff;
+    --color-regal-200: #99ceff;
+    --color-regal-300: #66b5ff;
+    --color-regal-400: #339cff;
+    --color-regal-500: #0084ff;
+    --color-regal-600: #0069cc;
+    --color-regal-700: #004f99;
+    --color-regal-800: #003566;
+    --color-regal-900: #001a33;
+    --color-regal-950: #001224;
+
+    /* Yellow shades */
+    --color-school-bus-50: #fff9e5;
+    --color-school-bus-100: #fff3cc;
+    --color-school-bus-200: #ffe799;
+    --color-school-bus-300: #ffdb66;
+    --color-school-bus-400: #ffcf33;
+    --color-school-bus-500: #ffc300;
+    --color-school-bus-600: #cc9c00;
+    --color-school-bus-700: #997500;
+    --color-school-bus-800: #664e00;
+    --color-school-bus-900: #332700;
+    --color-school-bus-950: #241b00;
+
+    --color-gold-50: #fffbe5;
+    --color-gold-100: #fff6cc;
+    --color-gold-200: #ffee99;
+    --color-gold-300: #ffe666;
+    --color-gold-400: #ffdd33;
+    --color-gold-500: #ffd500;
+    --color-gold-600: #ccaa00;
+    --color-gold-700: #998000;
+    --color-gold-800: #665500;
+    --color-gold-900: #332b00;
+    --color-gold-950: #241e00;
+}
